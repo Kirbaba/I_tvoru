@@ -11,13 +11,46 @@
   position: relative;
   width: 100%;
   float: left;
+  margin: 30px auto;
 }
 
 .order_item {
+  display: block;
+  position: relative;
+  width: 100%;
+  float: left;
+  margin: 30px 60px auto;
+}
+
+//.order_item_img{
+//  text-align: center;
+//}
+//
+//.order_item_desc{
+//  text-align: center;
+//
+//}
+
+.zaglav{
   font-size: 30px;
-//  font-family: ;
+  font-family: $b;
   color: rgb(77, 75, 75);
   text-transform: uppercase;
   line-height: 1.2;
   text-align: center;
 }
+
+.item_about{
+  font-size: 10px;
+  font-family: $os;
+  color: rgb(84, 84, 84);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.2;
+  text-align: left;
+  padding: 10px auto;
+}
+
+
+
+

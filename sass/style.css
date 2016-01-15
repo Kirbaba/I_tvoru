@@ -125,13 +125,32 @@ ul {
   display: block;
   position: relative;
   width: 100%;
-  float: left; }
+  float: left;
+  margin: 30px auto; }
 
 .order_item {
+  display: block;
+  position: relative;
+  width: 100%;
+  float: left;
+  margin: 30px 60px auto; }
+
+.zaglav {
   font-size: 30px;
+  font-family: "PantonBold";
   color: #4d4b4b;
   text-transform: uppercase;
   line-height: 1.2;
   text-align: center; }
+
+.item_about {
+  font-size: 10px;
+  font-family: "Open Sans", sans-serif;
+  color: #545454;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.2;
+  text-align: left;
+  padding: 10px auto; }
 
 /*# sourceMappingURL=style.css.map */
