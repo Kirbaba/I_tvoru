@@ -93,4 +93,17 @@ ul {
   height: 200px;
   background-color: #000000; }
 
+.order {
+  display: block;
+  position: relative;
+  width: 100%;
+  float: left; }
+
+.order_item {
+  font-size: 30px;
+  color: #4d4b4b;
+  text-transform: uppercase;
+  line-height: 1.2;
+  text-align: center; }
+
 /*# sourceMappingURL=style.css.map */
