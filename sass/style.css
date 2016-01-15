@@ -75,9 +75,31 @@ ul {
     width: 759px; } }
 @media only screen and (min-width: 1400px) {
   .container {
-    width: 1000px; } }
+    width: 1130px; } }
 @media only screen and (min-width: 1920px) {
   .container {
     width: 1300px; } }
+.header {
+  display: block;
+  float: left;
+  position: relative;
+  width: 100%;
+  background-image: url("../img/header_bg.png");
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding-top: 50px;
+  height: 305px; }
+  .header__topline {
+    display: block;
+    float: left;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    background-image: url("../img/topline-bg.png");
+    background-repeat: repeat-x; }
 
 /*# sourceMappingURL=style.css.map */
