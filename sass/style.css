@@ -102,4 +102,12 @@ ul {
     background-image: url("../img/topline-bg.png");
     background-repeat: repeat-x; }
 
+.slider {
+  display: block;
+  position: relative;
+  width: 100%;
+  float: left;
+  height: 200px;
+  background-color: #000000; }
+
 /*# sourceMappingURL=style.css.map */

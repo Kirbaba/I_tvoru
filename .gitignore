@@ -1,0 +1,11 @@
+sass/style.css.map
+# phpstorm project files
+.idea
+
+# zend studio for eclipse project files
+.buildpath
+.project
+.settings
+
+# windows thumbnail cache
+Thumbs.db
