@@ -1,3 +1,16 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700&subset=latin,cyrillic-ext);
+@font-face {
+  font-family: 'PantonBold';
+  src: url("../fonts/PantonBold.eot");
+  src: url("../fonts/PantonBold.eot") format("embedded-opentype"), url("../fonts/PantonBold.woff2") format("woff2"), url("../fonts/PantonBold.woff") format("woff"), url("../fonts/PantonBold.ttf") format("truetype"), url("../fonts/PantonBold.svg#PantonBold") format("svg"); }
+@font-face {
+  font-family: 'PantonRegular';
+  src: url("../fonts/PantonRegular.eot");
+  src: url("../fonts/PantonRegular.eot") format("embedded-opentype"), url("../fonts/PantonRegular.woff2") format("woff2"), url("../fonts/PantonRegular.woff") format("woff"), url("../fonts/PantonRegular.ttf") format("truetype"), url("../fonts/PantonRegular.svg#PantonRegular") format("svg"); }
+@font-face {
+  font-family: 'PantonLight';
+  src: url("../fonts/PantonLight.eot");
+  src: url("../fonts/PantonLight.eot") format("embedded-opentype"), url("../fonts/PantonLight.woff2") format("woff2"), url("../fonts/PantonLight.woff") format("woff"), url("../fonts/PantonLight.ttf") format("truetype"), url("../fonts/PantonLight.svg#PantonLight") format("svg"); }
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -41,7 +54,8 @@ a:hover {
 
 body {
   background-image: url("../img/body_bg.png");
-  background-repeat: repeat-y; }
+  background-repeat: repeat-y;
+  font-family: "PantonRegular"; }
 
 a {
   text-decoration: none; }
@@ -70,20 +84,34 @@ ul {
 .align-right {
   text-align: right; }
 
-@media only screen and (min-width: 1000px) {
-  .container {
-    width: 759px; } }
 @media only screen and (min-width: 1400px) {
   .container {
-    width: 1000px; } }
+    width: 1130px; } }
 @media only screen and (min-width: 1920px) {
   .container {
     width: 1300px; } }
 .header {
-  float: left;
   display: block;
+  float: left;
   position: relative;
-  width: 100%; }
+  width: 100%;
+  background-image: url("../img/header_bg.png");
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding-top: 50px;
+  height: 305px; }
+  .header__topline {
+    display: block;
+    float: left;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    background-image: url("../img/topline-bg.png");
+    background-repeat: repeat-x; }
 
 .slider {
   display: block;
