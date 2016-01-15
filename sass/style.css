@@ -217,7 +217,7 @@ ul {
   text-align: center; }
 
 .item_about {
-  font-size: 15px;
+  font-size: 10px;
   font-family: "Open Sans", sans-serif;
   color: #545454;
   font-weight: bold;
@@ -225,17 +225,6 @@ ul {
   line-height: 1.2;
   text-align: left;
   padding: 10px 0 10px 0; }
-
-.u {
-  font-size: 18px;
-  font-family: "PantonIcons";
-  color: #4d4b4b;
-  line-height: 1.2;
-  text-align: left;
-  position: absolute;
-  left: 899.844px;
-  top: 977.2px;
-  z-index: 223; }
 
 /*background-color: #efefef;*/
 .slider-top-nav {
