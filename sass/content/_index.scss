@@ -8,7 +8,9 @@
 }
 
 .slider-top-nav {
+  height: 80px;
   ul{
+    padding-top: 32px;
     li{
       display: inline-block;
       text-transform: uppercase;
@@ -19,4 +21,8 @@
       }
     }
   }
+}
+
+.slider-box {
+
 }

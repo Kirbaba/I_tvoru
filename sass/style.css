@@ -110,12 +110,16 @@ ul {
   height: 200px;
   background-color: #efefef; }
 
-.slider-top-nav ul li {
-  display: inline-block;
-  text-transform: uppercase;
-  font-size: 14px;
-  margin-right: 20px; }
-  .slider-top-nav ul li a {
-    color: #000; }
+.slider-top-nav {
+  height: 80px; }
+  .slider-top-nav ul {
+    padding-top: 32px; }
+    .slider-top-nav ul li {
+      display: inline-block;
+      text-transform: uppercase;
+      font-size: 14px;
+      margin-right: 20px; }
+      .slider-top-nav ul li a {
+        color: #000; }
 
 /*# sourceMappingURL=style.css.map */
