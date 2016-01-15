@@ -75,5 +75,18 @@ ul {
 @media only screen and (min-width: 1920px) {
   .container {
     width: 1300px; } }
+.header {
+  float: left;
+  display: block;
+  position: relative;
+  width: 100%; }
+
+.slider {
+  display: block;
+  position: relative;
+  width: 100%;
+  float: left;
+  height: 200px;
+  background-color: #000000; }
 
 /*# sourceMappingURL=style.css.map */
