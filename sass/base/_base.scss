@@ -1,6 +1,7 @@
 body {
 	background-image: url('../img/body_bg.png');
 	background-repeat: repeat-y;
+	font-family: $r;
 }
 
 a {
@@ -39,11 +40,6 @@ ul {
 
 
 
-@media only screen and (min-width: 1000px) {
-  .container {
-    width: 759px;
-  }
-}
 
 @media only screen and (min-width: 1400px) {
   .container {
