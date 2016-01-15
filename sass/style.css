@@ -251,4 +251,29 @@ ul {
         color: #000;
         font-family: "MyriadProRegular"; }
 
+.plashka {
+  background-color: #000000;
+  width: 100%;
+  height: 30px;
+  margin-top: -50px;
+  z-index: 999999; }
+
+.custom-arrow-left {
+  position: absolute;
+  width: 42px;
+  height: 84px;
+  left: 0;
+  top: 308px;
+  cursor: pointer;
+  background: url("../img/arrow-left.png") no-repeat; }
+
+.custom-arrow-right {
+  position: absolute;
+  width: 42px;
+  height: 84px;
+  right: 0;
+  top: 308px;
+  cursor: pointer;
+  background: url("../img/arrow-right.png") no-repeat; }
+
 /*# sourceMappingURL=style.css.map */
