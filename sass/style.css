@@ -11,6 +11,12 @@
   font-family: 'PantonLight';
   src: url("../fonts/PantonLight.eot");
   src: url("../fonts/PantonLight.eot") format("embedded-opentype"), url("../fonts/PantonLight.woff2") format("woff2"), url("../fonts/PantonLight.woff") format("woff"), url("../fonts/PantonLight.ttf") format("truetype"), url("../fonts/PantonLight.svg#PantonLight") format("svg"); }
+@font-face {
+  font-family: "MyriadProRegular";
+  src: url("../fonts/MyriadProRegular/MyriadProRegular.eot");
+  src: url("../fonts/MyriadProRegular/MyriadProRegular.eot?#iefix") format("embedded-opentype"), url("../fonts/MyriadProRegular/MyriadProRegular.woff") format("woff"), url("../fonts/MyriadProRegular/MyriadProRegular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal; }
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -90,6 +96,33 @@ ul {
 @media only screen and (min-width: 1920px) {
   .container {
     width: 1300px; } }
+.icon-info {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
+  background-image: url("../img/header-info.png");
+  background-repeat: no-repeat;
+  -webkit-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
+  background-position: center;
+  width: 19px;
+  height: 13px;
+  margin-right: 3px; }
+.icon-delivery {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
+  background-image: url("../img/delivery.png");
+  background-repeat: no-repeat;
+  -webkit-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
+  background-position: center;
+  width: 19px;
+  height: 13px;
+  margin-right: 3px; }
+
 .header {
   display: block;
   float: left;
@@ -109,9 +142,50 @@ ul {
     top: 0;
     width: 100%;
     height: 50px;
-    line-height: 50px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding-bottom: 10px;
+    line-height: 40px;
     background-image: url("../img/topline-bg.png");
     background-repeat: repeat-x; }
+    .header__topline:before, .header__topline:after {
+      display: table;
+      content: " "; }
+    .header__topline:after {
+      clear: both; }
+    .header__topline a {
+      display: inline-block;
+      color: #FFF;
+      font-size: 14px;
+      margin-right: 15px; }
+    .header__topline--center {
+      text-align: center; }
+    .header__topline--right {
+      text-align: right; }
+  .header__info {
+    display: block;
+    float: left;
+    position: relative;
+    width: 100%;
+    margin: 25px 0; }
+    .header__info--logo {
+      display: block;
+      float: left;
+      position: relative;
+      width: 100%; }
+      .header__info--logo img {
+        width: 128px;
+        display: block;
+        margin: 0 auto;
+        max-width: 100%; }
+    .header__info--contacts p.title {
+      font-size: 12px;
+      font-family: "Open Sans", sans-serif;
+      color: #898989; }
+    .header__info--contacts p {
+      font-size: 12px;
+      color: #4D4B4B; }
 
 .slider {
   display: block;

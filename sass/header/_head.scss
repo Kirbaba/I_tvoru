@@ -17,8 +17,53 @@
 		top: 0;
 		width: 100%;
 		height: 50px;
-		line-height: 50px;
+		@include inside-pad;
+		padding-bottom: 10px;
+		line-height: 40px;
 		background-image: url('../img/topline-bg.png');
 		background-repeat: repeat-x;
+		a {
+			display: inline-block;
+			color: #FFF;
+			font-size: 14px;
+			margin-right: 15px;
+		}
+		&--center {
+			text-align: center;
+		}
+		&--right {
+			text-align: right;
+		}
+	}
+
+	&__info {
+		display: block;
+		float: left;
+		position: relative;
+		width: 100%;
+		margin: 25px 0;
+		&--logo {
+			display: block;
+			float: left;
+			position: relative;
+			width: 100%;
+			img {
+				width: 128px;
+				display: block;
+				margin: 0 auto;
+				max-width: 100%;
+			}
+		}
+		&--contacts {
+			p.title {
+				font-size: 12px;
+				font-family: $os;
+				color: #898989;
+			}
+			p {
+				font-size: 12px;
+				color: #4D4B4B;
+			}
+		}
 	}
 }
