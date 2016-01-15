@@ -1,0 +1,30 @@
+.icon {
+	&-info {
+		display: inline-block;
+		vertical-align: middle;
+		line-height: normal;
+		background-image: url('../img/header-info.png');
+		background-repeat: no-repeat;
+		-webkit-background-size: contain;
+		     -o-background-size: contain;
+		        background-size: contain;
+		background-position: center;
+		width: 19px;
+		height: 13px;
+		margin-right: 3px;
+	}
+	&-delivery {
+		display: inline-block;
+		vertical-align: middle;
+		line-height: normal;
+		background-image: url('../img/delivery.png');
+		background-repeat: no-repeat;
+		-webkit-background-size: contain;
+		     -o-background-size: contain;
+		        background-size: contain;
+		background-position: center;
+		width: 19px;
+		height: 13px;
+		margin-right: 3px;
+	}
+}

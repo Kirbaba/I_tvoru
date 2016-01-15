@@ -2,6 +2,7 @@ $b: 'PantonBold';
 $r: 'PantonRegular';
 $l: 'PantonLight';
 $os: 'Open Sans', sans-serif;
+$mpreg: "MyriadProRegular";
 
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700&subset=latin,cyrillic-ext);
 
@@ -34,4 +35,14 @@ $os: 'Open Sans', sans-serif;
          url('../fonts/PantonLight.woff') format('woff'),
          url('../fonts/PantonLight.ttf') format('truetype'),
          url('../fonts/PantonLight.svg#PantonLight') format('svg');
+}
+
+@font-face {
+    font-family: "MyriadProRegular";
+    src: url("../fonts/MyriadProRegular/MyriadProRegular.eot");
+    src: url("../fonts/MyriadProRegular/MyriadProRegular.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/MyriadProRegular/MyriadProRegular.woff") format("woff"),
+    url("../fonts/MyriadProRegular/MyriadProRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
 }
