@@ -199,14 +199,17 @@ ul {
   position: relative;
   width: 100%;
   float: left;
-  margin: 30px auto; }
+  margin: 40px auto; }
 
 .order_item {
   display: block;
   position: relative;
-  width: 100%;
+  width: 241px;
   float: left;
-  margin: 30px 60px auto; }
+  margin: 30px auto; }
+
+.order_item_img {
+  text-align: center; }
 
 .zaglav {
   font-size: 30px;
@@ -217,14 +220,62 @@ ul {
   text-align: center; }
 
 .item_about {
-  font-size: 10px;
+  font-size: 14px;
   font-family: "Open Sans", sans-serif;
   color: #545454;
   font-weight: bold;
   text-transform: uppercase;
   line-height: 1.2;
   text-align: left;
-  padding: 10px 0 10px 0; }
+  padding: 10px 0 10px 0;
+  border-bottom: 2px dotted #e37d97;
+  margin: 20px auto; }
+
+.price {
+  font-size: 24px;
+  font-family: "Open Sans", sans-serif;
+  color: #544f4f;
+  font-weight: bold;
+  line-height: 1.2;
+  text-align: left;
+  float: left; }
+
+.new_price {
+  font-size: 24px;
+  font-family: "Open Sans", sans-serif;
+  color: #ff4200;
+  font-weight: bold;
+  line-height: 1.2;
+  text-align: left;
+  margin-left: 20px; }
+
+.shopping-cart {
+  text-align: right; }
+
+.catalog {
+  font-size: 12px;
+  font-family: "Open Sans", sans-serif;
+  float: left;
+  color: #898989;
+  text-decoration: underline;
+  line-height: 1.2;
+  text-align: left;
+  margin: 5px auto; }
+  .catalog span {
+    color: #e37d97;
+    text-decoration: underline; }
+
+.strikethrough {
+  position: relative;
+  font-size: 16px; }
+
+.strikethrough:before {
+  border-bottom: 3px solid red;
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 84%;
+  transform: rotate(-16deg); }
 
 /*background-color: #efefef;*/
 .slider-top-nav {
