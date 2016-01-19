@@ -14,40 +14,53 @@
 }
 
 .order div{
-  a span {
-    display: block;
-    position: relative;
-    float: right;
-    text-decoration: none;
-  }
-  a span:hover{
-    text-decoration: none;
-    border-bottom: 2px dotted;
-//  a span:focus{
-//    border-bottom: 2px dotted;
-//  }
-  }
+//   a span {
+//     display: block;
+//     position: relative;
+//     float: right;
+//     text-decoration: none;
+//   }
+//   a span:hover{
+//     text-decoration: none;
+//     border-bottom: 2px dotted;
+// //  a span:focus{
+// //    border-bottom: 2px dotted;
+// //  }
+//   }
 }
 
 a.all_goods{
-  width: 98px;
-  height: 89px;
-  background-image: url("../../img/all_goods.png");
-  background-repeat: no-repeat;
-  -webkit-background-size: contain;
-  -o-background-size: contain;
-  background-size: contain;
-  text-align: left;
+  display: inline-block;
+  vertical-align: super;
+  width: 72px;
+  height: 72px;
+  line-height: 72px;
+  background-color: #FFF;
+  @include border-radius(50%);
+  -webkit-box-shadow: 5px 0 12px 0 rgba(0,0,0,.15);
+          box-shadow: 5px 0 12px 0 rgba(0,0,0,.15);
+  text-align: center;
   font-family: $os;
-  //      font-weight: 900;
   color: rgb(227, 125, 151);
   font-size: 12px;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  //      padding: 30px 26px 20px 10px;
-  //      text-transform: uppercase;
-  line-height: 12px;
+  span {
+      display: inline-block;
+      position: relative;
+      text-decoration: none;
+      line-height: normal;
+      vertical-align: middle;
+  }
+  &:hover {
+    -webkit-box-shadow: 5px 0 12px 0 rgba(0,0,0,.3);
+          box-shadow: 5px 0 12px 0 rgba(0,0,0,.3);
+      span {
+        text-decoration: underline;
+        text-decoration-style: dotted;
+      }
+  }
 }
 
 .order_item {
@@ -235,13 +248,17 @@ a.all_goods{
 }
 
 //----Rater----//
-.stat {margin:1em;}
+.stat {
+  margin: 15px 0 0;
+  padding-bottom: 15px;
+  border-bottom: 1px dotted #e5879f;
+}
 .stat label {font-weight: bold;}
 
 /* RATER PLUGIN */
 .ui-rater>span {vertical-align:top;}
 .ui-rater-rating {margin-left:.8em}
-.ui-rater-starsOff, .ui-rater-starsOn {display:inline-block; height:18px; background:url(../../img/stars.png) repeat-x 0 0px;}
+.ui-rater-starsOff, .ui-rater-starsOn {display:inline-block; height:18px; background:url(../img/stars.png) repeat-x 0 0px;}
 .ui-rater-starsOn {display:block; max-width:90px; top:0; background-position: 0 -36px;}
 .ui-rater-starsHover {background-position: 0 -18px!important;}
 .ui-rater-rateCount {color: rgb(160,160,160);}
@@ -302,14 +319,8 @@ a.all_goods{
 
 }
 
-.footer{
-  display: block;
-  position: relative;
-  width: 100%;
-  float: left;
-  margin: 40px auto;
-}
 
-div.footer_background{
-  background: url("../img/footer_gray.png");
-}
+
+
+
+
