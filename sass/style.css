@@ -577,7 +577,7 @@ a.header__info--basket--weigher {
 a.all_goods {
   width: 98px;
   height: 89px;
-  background-image: url("../../img/ney");
+  background-image: url("../../img/all_goods.png");
   background-repeat: no-repeat;
   -webkit-background-size: contain;
   -o-background-size: contain;
@@ -822,5 +822,15 @@ a.all_goods {
   top: 308px;
   cursor: pointer;
   background: url("../img/arrow-right.png") no-repeat; }
+
+.footer {
+  display: block;
+  position: relative;
+  width: 100%;
+  float: left;
+  margin: 40px auto; }
+
+div.footer_background {
+  background: url("../img/footer_gray.png"); }
 
 /*# sourceMappingURL=style.css.map */
