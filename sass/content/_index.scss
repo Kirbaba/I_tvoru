@@ -27,7 +27,7 @@
 
 .zaglav{
   font-size: 30px;
-  font-family: $b;
+  font-family: $r;
   color: rgb(77, 75, 75);
   text-transform: uppercase;
   line-height: 1.2;
@@ -39,11 +39,11 @@
   font-family: $os;
   color: rgb(84, 84, 84);
   font-weight: bold;
-  text-transform: uppercase;
+//  text-transform: uppercase;
   line-height: 1.2;
   text-align: left;
   padding: 10px 0 10px 0;
-  border-bottom: 2px dotted rgb(227, 125, 151);
+//  border-bottom: 2px dotted rgb(227, 125, 151);
   margin: 20px auto;
 }
 
@@ -55,6 +55,10 @@
   line-height: 1.2;
   text-align: left;
   float: left;
+//  border-top: 2px dotted rgb(227, 125, 151);
+  i{
+    padding-left: 5px;
+  }
 }
 
 .new_price{
@@ -70,6 +74,7 @@
 
 .shopping-cart{
   text-align: right;
+//  border-top: 2px dotted rgb(227, 125, 151);
 }
 
 .catalog {
@@ -87,6 +92,7 @@
   }
 }
 
+//----strikethrough prices----//
 .strikethrough {
   position: relative;
   font-size: 16px;
@@ -98,7 +104,6 @@
   content: "";
   width: 100%;
   top: 50%;
-  /* left: 50%; */
   height: 0;
   transform: rotate(-16deg) translateY(-50%);
 }
@@ -113,6 +118,100 @@
   height: 0;
   transform: rotate(16deg) translateY(-50%);
 }
+//----strikethrough prices end----//
+
+.description{
+  display: block;
+  position: relative;
+  width: 100%;
+  float: left;
+  margin: 40px auto;
+  h1.event{
+    font-size: 30px;
+    font-family: $r;
+    color: rgb(255, 168, 8);
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: left;
+    margin-bottom: 10px;
+  }
+  h1.about_company{
+    font-size: 30px;
+    font-family: $r;
+    color: rgb(147, 147, 147);
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: left;
+    margin-bottom: 10px;
+    padding-left: 13px;
+  }
+  p.date{
+      font-size: 12px;
+      font-family: $os;
+      color: rgb(137, 137, 137);
+      line-height: 1.2;
+      text-align: left;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      img.calendar{
+        margin: 0;
+        padding: 0 5px 0 0;
+        border: 0;
+        font-size: 100%;
+        font: inherit;
+        vertical-align: middle;
+      }
+    }
+  p.ad{
+      font-size: 14px;
+      font-family: $os;
+      color: rgb(247, 145, 0);
+      font-weight: bold;
+      text-decoration: underline;
+      line-height: 1.2;
+      text-align: left;
+      margin-bottom: 10px;
+    }
+  p.ad_text{
+      font-size: 14px;
+      font-family: $os;
+      color: rgb(77, 75, 75);
+      line-height: 1.2;
+      text-align: left;
+    }
+  p.text_company{
+    font-size: 14px;
+    font-family: $os;
+    color: rgb(77, 75, 75);
+    line-height: 1.2;
+    text-align: left;
+    margin: 10px 0 30px 0;
+    line-height: 1.2;
+    text-align: justify;
+  }
+}
+
+.italic{
+  font-style: italic;
+  border-top: 2px dotted rgb(77, 75, 75);
+  padding-top: 30px;
+}
+
+//----Rater----//
+.stat {margin:1em;}
+.stat label {font-weight: bold;}
+
+/* RATER PLUGIN */
+.ui-rater>span {vertical-align:top;}
+.ui-rater-rating {margin-left:.8em}
+.ui-rater-starsOff, .ui-rater-starsOn {display:inline-block; height:18px; background:url(../../img/stars.png) repeat-x 0 0px;}
+.ui-rater-starsOn {display:block; max-width:90px; top:0; background-position: 0 -36px;}
+.ui-rater-starsHover {background-position: 0 -18px!important;}
+.ui-rater-rateCount {color: rgb(160,160,160);}
+.ui-rater-starsOff{width:90px;cursor: pointer;}
+.ui-rater-starsOn{width:36px;cursor: pointer;}
+//----Rater end----//
+
 
 
 /*background-color: #efefef;*/
