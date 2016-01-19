@@ -921,7 +921,44 @@ a.all_goods {
   cursor: pointer;
   background: url("../img/arrow-right.png") no-repeat; }
 
-<<<<<<< HEAD
+.slider-box__item {
+  display: block;
+  float: left;
+  width: 100%; }
+  .slider-box__item--desc {
+    position: absolute;
+    width: 33.33333%;
+    bottom: 50px;
+    left: 10%; }
+    .slider-box__item--desc h2 {
+      font-size: 36px;
+      font-family: "NexaScript";
+      color: #FFF;
+      margin-bottom: 15px; }
+      .slider-box__item--desc h2 span {
+        background-color: rgba(227, 125, 151, 0.9);
+        background-image: url("../img/texture1.png");
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        border-radius: 5px;
+        padding: 5px 10px;
+        line-height: 51px; }
+    .slider-box__item--desc a {
+      display: block;
+      float: left;
+      color: #FFF;
+      background-color: rgba(227, 125, 151, 0.9);
+      padding: 10px;
+      -webkit-border-radius: 3px;
+      -moz-border-radius: 3px;
+      -ms-border-radius: 3px;
+      border-radius: 3px;
+      font-family: "Open Sans", sans-serif; }
+      .slider-box__item--desc a:hover {
+        text-decoration: underline;
+        color: #FFF; }
+
 .footer {
   display: block;
   position: relative;
@@ -968,6 +1005,7 @@ a.all_goods {
 .icon-clock-wite {
   display: inline-block;
   line-height: normal;
+  vertical-align: middle;
   margin-right: 15px;
   margin-bottom: 2px;
   background-repeat: no-repeat;
@@ -977,7 +1015,7 @@ a.all_goods {
   background-position: center;
   width: 21px;
   height: 21px;
-  background-image: url("../img/contacts-clock-wit.png"); }
+  background-image: url("../img/contacts-clock-wite.png"); }
 
 div.footer_menu {
   display: block;
@@ -993,44 +1031,5 @@ div.footer_menu {
       div.footer_menu ul li a {
         color: white;
         font-family: "MyriadProRegular"; }
-=======
-.slider-box__item {
-  display: block;
-  float: left;
-  width: 100%; }
-  .slider-box__item--desc {
-    position: absolute;
-    width: 33.33333%;
-    bottom: 50px;
-    left: 10%; }
-    .slider-box__item--desc h2 {
-      font-size: 36px;
-      font-family: "NexaScript";
-      color: #FFF;
-      margin-bottom: 15px; }
-      .slider-box__item--desc h2 span {
-        background-color: rgba(227, 125, 151, 0.9);
-        background-image: url("../img/texture1.png");
-        -webkit-border-radius: 5px;
-        -moz-border-radius: 5px;
-        -ms-border-radius: 5px;
-        border-radius: 5px;
-        padding: 5px 10px;
-        line-height: 51px; }
-    .slider-box__item--desc a {
-      display: block;
-      float: left;
-      color: #FFF;
-      background-color: rgba(227, 125, 151, 0.9);
-      padding: 10px;
-      -webkit-border-radius: 3px;
-      -moz-border-radius: 3px;
-      -ms-border-radius: 3px;
-      border-radius: 3px;
-      font-family: "Open Sans", sans-serif; }
-      .slider-box__item--desc a:hover {
-        text-decoration: underline;
-        color: #FFF; }
->>>>>>> 9a0b4b4074c71b7eeaaa0411b6cc7c3919a724d2
 
 /*# sourceMappingURL=style.css.map */
