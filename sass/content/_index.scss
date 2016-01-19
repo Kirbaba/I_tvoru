@@ -270,22 +270,22 @@ a.all_goods{
 /*background-color: #efefef;*/
 
 .slider-top-nav {
-  height: 80px;
   width: 100%;
   display: block;
   ul{
-    padding-top: 32px;
+    padding: 32px 0;
     width: 100%;
     display: inline-block;
     text-align: center;
+    margin: 0;
     li{
-      display: inline-block;
-      text-transform: uppercase;
-      font-size: 14px;
-      margin-right: 20px;
+      display: inline-block;      
+      margin: 0 7px;
       a {
-        color: #000;
-        font-family: $mpreg;
+        color: #4D4B4B;
+        text-transform: uppercase;
+        font-size: 14px;
+        font-weight: 700;
       }
     }
   }

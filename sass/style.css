@@ -269,8 +269,9 @@ ul {
   position: relative;
   width: 100%;
   background-color: #FFF;
-  -webkit-box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.5);
-  box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.5); }
+  -webkit-box-shadow: 0 0px 20px 3px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0px 20px 3px rgba(0, 0, 0, 0.5);
+  z-index: 9; }
 
 .header {
   display: block;
@@ -282,8 +283,7 @@ ul {
   -webkit-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  padding-top: 50px;
-  height: 305px; }
+  padding-bottom: 30px; }
   .header__topline {
     display: block;
     float: left;
@@ -317,7 +317,7 @@ ul {
     float: left;
     position: relative;
     width: 100%;
-    margin: 25px 0; }
+    margin: 50px 0 25px; }
     .header__info--logo {
       display: block;
       float: left;
@@ -512,7 +512,7 @@ ul {
     float: left;
     position: relative;
     width: 100%;
-    margin: 25px 0; }
+    margin: 0; }
     .header__search--form {
       display: block;
       float: left;
@@ -869,22 +869,22 @@ a.all_goods {
 
 /*background-color: #efefef;*/
 .slider-top-nav {
-  height: 80px;
   width: 100%;
   display: block; }
   .slider-top-nav ul {
-    padding-top: 32px;
+    padding: 32px 0;
     width: 100%;
     display: inline-block;
-    text-align: center; }
+    text-align: center;
+    margin: 0; }
     .slider-top-nav ul li {
       display: inline-block;
-      text-transform: uppercase;
-      font-size: 14px;
-      margin-right: 20px; }
+      margin: 0 7px; }
       .slider-top-nav ul li a {
-        color: #000;
-        font-family: "MyriadProRegular"; }
+        color: #4D4B4B;
+        text-transform: uppercase;
+        font-size: 14px;
+        font-weight: 700; }
 
 .plashka {
   background-color: #000000;
