@@ -51,7 +51,7 @@ $.fn.rater.rate = function($this, opts, rating) {
                         $this.attr('title', 'Your rating: ' + rating.toFixed(1));
                     });
                 } else { //failure
-                    alert(req.responseText);
+                    //alert(req.responseText);
                     $on.removeClass('ui-rater-starsHover').width(opts.rating * opts.size);
                     $this.rater(opts);
                     $off.fadeTo(2200, 1);

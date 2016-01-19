@@ -959,14 +959,23 @@ a.all_goods {
         text-decoration: underline;
         color: #FFF; }
 
+.map-wrap {
+  width: 100%;
+  display: block;
+  float: left;
+  height: 380px; }
+  .map-wrap #map_canvas {
+    height: 100%;
+    display: block; }
+
 .footer {
   display: block;
   position: relative;
   width: 100%;
   height: 252px;
   float: left;
-  margin: 40px auto;
-  background: url("../img/footer_gray.png"); }
+  margin: 0;
+  background-color: #404040; }
   .footer__info {
     display: block;
     float: left;
@@ -1005,7 +1014,6 @@ a.all_goods {
 .icon-clock-wite {
   display: inline-block;
   line-height: normal;
-  vertical-align: middle;
   margin-right: 15px;
   margin-bottom: 2px;
   background-repeat: no-repeat;
@@ -1019,10 +1027,13 @@ a.all_goods {
 
 div.footer_menu {
   display: block;
+  float: left;
   position: relative;
-  height: 30px; }
+  width: 100%;
+  padding: 15px 0; }
   div.footer_menu ul {
-    padding-top: 32px; }
+    padding: 0;
+    margin: 10px 0; }
     div.footer_menu ul li {
       display: inline-block;
       text-decoration: underline;
@@ -1031,5 +1042,74 @@ div.footer_menu {
       div.footer_menu ul li a {
         color: white;
         font-family: "MyriadProRegular"; }
+
+.footer__info {
+  display: block;
+  float: left;
+  position: relative;
+  width: 100%;
+  background-color: #404040;
+  background-image: url("../img/Layer-230.png");
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding: 15px 0;
+  margin: 0; }
+  .footer__info--contacts {
+    display: block;
+    float: left;
+    position: relative;
+    margin-top: 15px; }
+    .footer__info--contacts h3 {
+      font-size: 30px;
+      color: #ffffff;
+      margin-bottom: 20px;
+      position: relative; }
+      .footer__info--contacts h3:after {
+        content: '';
+        width: 21px;
+        height: 44px;
+        background-image: url("../img/contacts-arrow.png");
+        background-repeat: no-repeat;
+        -webkit-background-size: contain;
+        -o-background-size: contain;
+        background-size: contain;
+        position: absolute;
+        right: -10px;
+        bottom: -30px; }
+    .footer__info--contacts p.title {
+      font-size: 12px;
+      font-family: "Open Sans", sans-serif;
+      color: #ffffff; }
+    .footer__info--contacts p {
+      font-size: 12px;
+      color: #ffffff;
+      margin-bottom: 5px; }
+    .footer__info--contacts--time {
+      display: block;
+      float: left;
+      width: 50%; }
+      .footer__info--contacts--time--text {
+        display: inline-block; }
+    .footer__info--contacts--callback {
+      display: block;
+      float: left;
+      position: relative;
+      width: 40%;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+      padding-left: 5px;
+      font-family: "Open Sans", sans-serif;
+      font-size: 12px;
+      color: #6E6E6E;
+      text-decoration: underline;
+      text-decoration-style: dashed;
+      line-height: 14px; }
+      .footer__info--contacts--callback:before, .footer__info--contacts--callback:after {
+        display: table;
+        content: " "; }
+      .footer__info--contacts--callback:after {
+        clear: both; }
 
 /*# sourceMappingURL=style.css.map */
