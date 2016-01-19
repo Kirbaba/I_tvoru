@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAaOWKyamSxMTXclSDFmJ2N4Am20PCTD6I&sensor=FALSE">
+    </script>
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
           integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
@@ -715,67 +717,54 @@
     </div>
 </section>
 
-<section class="footer">
-    <div class="container-fluid">
+<footer class="footer">
+    <div class="container">
         <div class="row">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-lg-1"></div>
-
-                    <div class="col-lg-10">
-
-                        <div class="footer_menu">
-                            <ul>
-                                <li><a href="#">Новости</a></li>
-                                <li><a href="#">О магазине</a></li>
-                                <li><a href="#">Как купить</a></li>
-                                <li><a href="#">Доставка</a></li>
-                                <li><a href="#">Мастер-классы</a></li>
-                                <li><a href="#">Контакты</a></li>
-                            </ul>
-                        </div>
-
-                        <div class="footer_menu">
-                            <ul>
-                                <li><a href="#">Вышивка</a></li>
-                                <li><a href="#">Вязание</a></li>
-                                <li><a href="#">Декор</a></li>
-                                <li><a href="#">Декупаж</a></li>
-                                <li><a href="#">Детское творчество</a></li>
-                                <li><a href="#">Лепка</a></li>
-                                <li><a href="#">Мыло, свечи</a></li>
-                                <li><a href="#">Рисование</a></li>
-                                <li><a href="#">Скрапбукинг</a></li>
-                                <li><a href="#">Украшения</a></li>
-                                <li><a href="#">Шитье, валяние</a></li>
-                                <li><a href="#">Новый год</a></li>
-                                <li><a href="#">Спецпредложения</a></li>
-                            </ul>
-                        </div>
-
-                    </div>
-
-                    <div class="col-lg-1"></div>
-
+            <div class="col-lg-12">
+                <div class="footer_menu">
+                    <ul>
+                        <li><a href="#">Новости</a></li>
+                        <li><a href="#">О магазине</a></li>
+                        <li><a href="#">Как купить</a></li>
+                        <li><a href="#">Доставка</a></li>
+                        <li><a href="#">Мастер-классы</a></li>
+                        <li><a href="#">Контакты</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="#">Вышивка</a></li>
+                        <li><a href="#">Вязание</a></li>
+                        <li><a href="#">Декор</a></li>
+                        <li><a href="#">Декупаж</a></li>
+                        <li><a href="#">Детское творчество</a></li>
+                        <li><a href="#">Лепка</a></li>
+                        <li><a href="#">Мыло, свечи</a></li>
+                        <li><a href="#">Рисование</a></li>
+                        <li><a href="#">Скрапбукинг</a></li>
+                        <li><a href="#">Украшения</a></li>
+                        <li><a href="#">Шитье, валяние</a></li>
+                        <li><a href="#">Новый год</a></li>
+                        <li><a href="#">Спецпредложения</a></li>
+                    </ul>
                 </div>
+
+              <!--   <div class="footer_menu">
+                    
+                </div> -->
             </div>
         </div>
+    </div>
 
-        <div class="container-fluid">
+    <article class="footer__info">
+        <div class="container">
             <div class="row">
-                <!--<div class="col-lg-1"></div>-->
-
-                <div class="col-lg-3">
-
-                    <!--<img src="img/logo_grey.png" alt=""/>-->
+                 <div class="col-lg-2">
+                    <img src="img/logo_grey.png" alt=""/>
                 </div>
-
-                <div class="col-lg-3">
-
+                <div class="col-lg-4">
                     <div class="footer__info--contacts">
                         <h3><i class="icon-phone-wite"></i>8–800–505–15–89</h3>
 
-                        <div class="header__info--contacts--time">
+                        <div class="footer__info--contacts--time">
                             <i class="icon-clock-wite"></i>
 
                             <div class="header__info--contacts--time--text">
@@ -789,31 +778,41 @@
                         </a>
                     </div>
                 </div>
-                <div class="col-lg-3">
-
-                    <!--<div class="header__info--contacts">-->
-                        <!--<p><i class="fa fa-envelope"></i></p>-->
-
-                        <!--<div class="header__info--contacts--time">-->
-                            <!--<i class="icon-clock"></i>-->
-
-                            <!--<div class="header__info--contacts--time--text">-->
-                                <!--<p class="title">Мы работаем:</p>-->
-
-                                <!--<p>Пн – Сб с 9:00 – 19:00</p>-->
-                            <!--</div>-->
-                        <!--</div>-->
-                        <!--<a href="#" class="header__info--contacts--callback">-->
-                            <!--Заказать обратный звонок-->
-                        <!--</a>-->
-                    <!--</div>-->
+                <div class="col-lg-2">
+                    <div class="footer__address">
+                        
+                    </div>
                 </div>
-
-                <!--<div class="col-lg-1"></div>-->
-
             </div>
         </div>
-    </div>
+    </article>
+           
+           
+
+            
+            <div class="col-lg-3">
+
+                <!--<div class="header__info--contacts">-->
+                    <!--<p><i class="fa fa-envelope"></i></p>-->
+
+                    <!--<div class="header__info--contacts--time">-->
+                        <!--<i class="icon-clock"></i>-->
+
+                        <!--<div class="header__info--contacts--time--text">-->
+                            <!--<p class="title">Мы работаем:</p>-->
+
+                            <!--<p>Пн – Сб с 9:00 – 19:00</p>-->
+                        <!--</div>-->
+                    <!--</div>-->
+                    <!--<a href="#" class="header__info--contacts--callback">-->
+                        <!--Заказать обратный звонок-->
+                    <!--</a>-->
+                <!--</div>-->
+            </div>
+
+            <!--<div class="col-lg-1"></div>-->
+
+  
         <!--</div>-->
 
         <!--<div class="container">-->
@@ -844,6 +843,10 @@
         <!--</div>-->
         <!--</div>-->
     </div>
+</footer>
+
+<section class="map-wrap">
+    <div id="map_canvas"></div>
 </section>
 
 <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>

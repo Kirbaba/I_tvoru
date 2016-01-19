@@ -369,7 +369,16 @@ a.all_goods{
   }
 }
 
-
+.map-wrap {
+  width: 100%;
+  display: block;
+  float: left;
+  height: 380px;
+  #map_canvas {
+    height: 100%;
+    display: block;
+  }
+}
 
 
 
