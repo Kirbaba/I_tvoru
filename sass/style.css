@@ -638,6 +638,64 @@ a.header__info--basket--weigher {
   width: 100%;
   float: left;
   margin: 40px auto; }
+  .order .zaglav {
+    font-size: 30px;
+    font-family: "PantonRegular";
+    color: #4d4b4b;
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: center; }
+  .order .order_item {
+    display: block;
+    position: relative;
+    width: 241px;
+    float: left;
+    margin: 30px auto; }
+  .order .order_item_img {
+    text-align: center; }
+  .order .item_about {
+    font-size: 14px;
+    font-family: "Open Sans", sans-serif;
+    color: #545454;
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: left;
+    padding: 10px 0 10px 0;
+    margin: 20px auto; }
+    .order .item_about a {
+      color: #545454; }
+  .order .price {
+    font-size: 24px;
+    font-family: "Open Sans", sans-serif;
+    color: #544f4f;
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: left;
+    float: left; }
+    .order .price i {
+      padding-left: 5px; }
+  .order .new_price {
+    font-size: 24px;
+    font-family: "Open Sans", sans-serif;
+    color: #ff4200;
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: left;
+    margin-left: 20px; }
+  .order .shopping-cart {
+    text-align: right; }
+  .order .catalog {
+    font-size: 12px;
+    font-family: "Open Sans", sans-serif;
+    float: left;
+    color: #898989;
+    text-decoration: underline;
+    line-height: 1.2;
+    text-align: left;
+    margin: 5px auto; }
+    .order .catalog span {
+      color: #e37d97;
+      text-decoration: underline; }
 
 a.all_goods {
   display: inline-block;
@@ -671,70 +729,6 @@ a.all_goods {
     a.all_goods:hover span {
       text-decoration: underline;
       text-decoration-style: dotted; }
-
-.order_item {
-  display: block;
-  position: relative;
-  width: 241px;
-  float: left;
-  margin: 30px auto; }
-
-.order_item_img {
-  text-align: center; }
-
-.zaglav {
-  font-size: 30px;
-  font-family: "PantonRegular";
-  color: #4d4b4b;
-  text-transform: uppercase;
-  line-height: 1.2;
-  text-align: center; }
-
-.item_about {
-  font-size: 14px;
-  font-family: "Open Sans", sans-serif;
-  color: #545454;
-  font-weight: bold;
-  line-height: 1.2;
-  text-align: left;
-  padding: 10px 0 10px 0;
-  margin: 20px auto; }
-
-.price {
-  font-size: 24px;
-  font-family: "Open Sans", sans-serif;
-  color: #544f4f;
-  font-weight: bold;
-  line-height: 1.2;
-  text-align: left;
-  float: left; }
-  .price i {
-    padding-left: 5px; }
-
-.new_price {
-  font-size: 24px;
-  font-family: "Open Sans", sans-serif;
-  color: #ff4200;
-  font-weight: bold;
-  line-height: 1.2;
-  text-align: left;
-  margin-left: 20px; }
-
-.shopping-cart {
-  text-align: right; }
-
-.catalog {
-  font-size: 12px;
-  font-family: "Open Sans", sans-serif;
-  float: left;
-  color: #898989;
-  text-decoration: underline;
-  line-height: 1.2;
-  text-align: left;
-  margin: 5px auto; }
-  .catalog span {
-    color: #e37d97;
-    text-decoration: underline; }
 
 .strikethrough {
   position: relative;
@@ -972,7 +966,7 @@ a.all_goods {
   display: block;
   position: relative;
   width: 100%;
-  height: 252px;
+  height: 100%;
   float: left;
   margin: 0;
   background-color: #404040; }
@@ -1111,5 +1105,87 @@ div.footer_menu {
         content: " "; }
       .footer__info--contacts--callback:after {
         clear: both; }
+
+.footer__address {
+  display: block;
+  float: left;
+  position: relative;
+  width: 100%;
+  color: white;
+  background-image: url("../img/Layer-230.png");
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding: 9px 0 0 0;
+  margin: 0;
+  font-size: 12px; }
+  .footer__address i.icon-envelope {
+    display: inline-block;
+    line-height: normal;
+    vertical-align: middle;
+    float: left;
+    margin-right: 10px;
+    margin-top: 10px;
+    width: 23px;
+    height: 23px;
+    background-image: url("../img/envelope.png");
+    background-repeat: no-repeat;
+    -webkit-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+    background-position: center; }
+  .footer__address .title_mail {
+    display: inline-block;
+    float: left;
+    font-size: 12px;
+    font-family: "Open Sans", sans-serif;
+    color: #ffffff;
+    line-height: 23px; }
+
+div.footer__mail--contacts {
+  display: block;
+  float: left;
+  width: 50%;
+  margin-top: 2px; }
+  div.footer__mail--contacts a {
+    color: white;
+    font-family: "Open Sans", sans-serif; }
+
+.footer__mailing {
+  display: block;
+  float: left;
+  position: relative;
+  width: 100%;
+  color: white;
+  background-image: url("../img/Layer-230.png");
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding: 11px 0;
+  margin: 0;
+  font-size: 12px; }
+  .footer__mailing i.white-marker {
+    display: inline-block;
+    line-height: normal;
+    vertical-align: middle;
+    float: left;
+    margin-right: 10px;
+    margin-top: 10px;
+    width: 23px;
+    height: 23px;
+    background-image: url("../img/white-marker.png");
+    background-repeat: no-repeat;
+    -webkit-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+    background-position: center; }
+  .footer__mailing--post {
+    display: inline-block;
+    float: left;
+    font-size: 10px;
+    font-family: "Open Sans", sans-serif;
+    color: #ffffff;
+    line-height: 20px;
+    padding-top: 4px; }
 
 /*# sourceMappingURL=style.css.map */
