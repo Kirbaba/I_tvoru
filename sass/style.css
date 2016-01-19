@@ -17,13 +17,18 @@
   src: url("../fonts/MyriadProRegular/MyriadProRegular.eot?#iefix") format("embedded-opentype"), url("../fonts/MyriadProRegular/MyriadProRegular.woff") format("woff"), url("../fonts/MyriadProRegular/MyriadProRegular.ttf") format("truetype");
   font-style: normal;
   font-weight: normal; }
+@font-face {
+  font-family: 'NexaScript';
+  src: url("../fonts/FontfabricNexaScript.eot");
+  src: url("../fonts/FontfabricNexaScript.eot") format("embedded-opentype"), url("../fonts/FontfabricNexaScript.woff2") format("woff2"), url("../fonts/FontfabricNexaScript.woff") format("woff"), url("../fonts/FontfabricNexaScript.ttf") format("truetype"), url("../fonts/FontfabricNexaScript.svg#FontfabricNexaScript") format("svg"); }
 .slider .fotorama__nav-wrap {
   margin-top: -30px;
   height: 30px;
   background: #fff;
   display: block;
   float: left;
-  width: 100%;
+  width: 110%;
+  margin-left: -5%;
   z-index: 99;
   padding-bottom: 0; }
 .slider .fotorama__dot {
@@ -257,6 +262,15 @@ ul {
   -o-background-size: contain;
   background-size: contain;
   margin-bottom: 3px; }
+
+.navigation {
+  display: block;
+  float: left;
+  position: relative;
+  width: 100%;
+  background-color: #FFF;
+  -webkit-box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.5); }
 
 .header {
   display: block;
@@ -616,8 +630,7 @@ a.header__info--basket--weigher {
   display: block;
   position: relative;
   width: 100%;
-  float: left;
-  height: 620px; }
+  float: left; }
 
 .order {
   display: block;
@@ -815,7 +828,7 @@ a.all_goods {
   padding-top: 30px; }
 
 .stat {
-  margin: 15px 0 0;
+  margin: 15px 0;
   padding-bottom: 15px;
   border-bottom: 1px dotted #e5879f; }
 
@@ -832,7 +845,7 @@ a.all_goods {
 .ui-rater-starsOff, .ui-rater-starsOn {
   display: inline-block;
   height: 18px;
-  background: url(../../img/stars.png) repeat-x 0 0px; }
+  background: url(../img/stars.png) repeat-x 0 0px; }
 
 .ui-rater-starsOn {
   display: block;
@@ -856,9 +869,14 @@ a.all_goods {
 
 /*background-color: #efefef;*/
 .slider-top-nav {
-  height: 80px; }
+  height: 80px;
+  width: 100%;
+  display: block; }
   .slider-top-nav ul {
-    padding-top: 32px; }
+    padding-top: 32px;
+    width: 100%;
+    display: inline-block;
+    text-align: center; }
     .slider-top-nav ul li {
       display: inline-block;
       text-transform: uppercase;
@@ -880,7 +898,12 @@ a.all_goods {
   width: 42px;
   height: 84px;
   left: 0;
-  top: 308px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  transform: translateY(-50%);
   cursor: pointer;
   background: url("../img/arrow-left.png") no-repeat; }
 
@@ -889,8 +912,51 @@ a.all_goods {
   width: 42px;
   height: 84px;
   right: 0;
-  top: 308px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  transform: translateY(-50%);
   cursor: pointer;
   background: url("../img/arrow-right.png") no-repeat; }
+
+.slider-box__item {
+  display: block;
+  float: left;
+  width: 100%; }
+  .slider-box__item--desc {
+    position: absolute;
+    width: 33.33333%;
+    bottom: 50px;
+    left: 10%; }
+    .slider-box__item--desc h2 {
+      font-size: 36px;
+      font-family: "NexaScript";
+      color: #FFF;
+      margin-bottom: 15px; }
+      .slider-box__item--desc h2 span {
+        background-color: rgba(227, 125, 151, 0.9);
+        background-image: url("../img/texture1.png");
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        border-radius: 5px;
+        padding: 5px 10px;
+        line-height: 51px; }
+    .slider-box__item--desc a {
+      display: block;
+      float: left;
+      color: #FFF;
+      background-color: rgba(227, 125, 151, 0.9);
+      padding: 10px;
+      -webkit-border-radius: 3px;
+      -moz-border-radius: 3px;
+      -ms-border-radius: 3px;
+      border-radius: 3px;
+      font-family: "Open Sans", sans-serif; }
+      .slider-box__item--desc a:hover {
+        text-decoration: underline;
+        color: #FFF; }
 
 /*# sourceMappingURL=style.css.map */

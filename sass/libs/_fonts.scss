@@ -3,6 +3,7 @@ $r: 'PantonRegular';
 $l: 'PantonLight';
 $os: 'Open Sans', sans-serif;
 $mpreg: "MyriadProRegular";
+$nexa: 'NexaScript';
 
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700&subset=latin,cyrillic-ext);
 
@@ -45,4 +46,14 @@ $mpreg: "MyriadProRegular";
     url("../fonts/MyriadProRegular/MyriadProRegular.ttf") format("truetype");
     font-style: normal;
     font-weight: normal;
+}
+
+@font-face {
+    font-family: 'NexaScript';
+    src: url('../fonts/FontfabricNexaScript.eot');
+    src: url('../fonts/FontfabricNexaScript.eot') format('embedded-opentype'),
+         url('../fonts/FontfabricNexaScript.woff2') format('woff2'),
+         url('../fonts/FontfabricNexaScript.woff') format('woff'),
+         url('../fonts/FontfabricNexaScript.ttf') format('truetype'),
+         url('../fonts/FontfabricNexaScript.svg#FontfabricNexaScript') format('svg');
 }
