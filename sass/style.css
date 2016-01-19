@@ -996,6 +996,51 @@ a.all_goods {
           content: '';
           width: 21px;
           height: 44px; }
+  .footer__social {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    text-align: center;
+    margin-top: 15px; }
+    .footer__social a {
+      display: inline-block;
+      text-align: center;
+      width: 22px;
+      height: 22px;
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      -ms-border-radius: 50%;
+      border-radius: 50%;
+      background-color: #FFF;
+      color: #424242;
+      text-decoration: none;
+      line-height: 22px;
+      -webkit-transition: all 0.2s linear;
+      -moz-transition: all 0.2s linear;
+      -ms-transition: all 0.2s linear;
+      -o-transition: all 0.2s linear;
+      transition: all 0.2s linear;
+      font-size: 12px;
+      margin: 0 5px; }
+      .footer__social a:hover {
+        background-color: #e6e6e6; }
+  .footer__dev {
+    display: block;
+    float: left;
+    position: relative;
+    width: 100%;
+    margin-top: 15px; }
+    .footer__dev img {
+      width: 200px;
+      display: block;
+      margin: 0 auto; }
+    .footer__dev a {
+      font-family: "Open Sans", sans-serif;
+      font-size: 12px;
+      color: #999;
+      display: block;
+      margin-top: 10px;
+      margin-left: 30px; }
 
 .icon-phone-wite {
   display: inline-block;
