@@ -1,4 +1,4 @@
-$(document).ready(function(){
+jQuery(document).ready(function($){
     $('.slider-box').fotorama();
 
     $('.custom-arrow-left').on('click', function(){
