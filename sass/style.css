@@ -17,6 +17,67 @@
   src: url("../fonts/MyriadProRegular/MyriadProRegular.eot?#iefix") format("embedded-opentype"), url("../fonts/MyriadProRegular/MyriadProRegular.woff") format("woff"), url("../fonts/MyriadProRegular/MyriadProRegular.ttf") format("truetype");
   font-style: normal;
   font-weight: normal; }
+.slider .fotorama__nav-wrap {
+  margin-top: -30px;
+  height: 30px;
+  background: #fff;
+  display: block;
+  float: left;
+  width: 100%;
+  z-index: 99;
+  padding-bottom: 0; }
+.slider .fotorama__dot {
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
+  border: 1px solid #e37d97;
+  background-color: transparent;
+  width: 16px;
+  height: 16px;
+  margin: 0 5px 0 0; }
+.slider .fotorama__nav__frame.fotorama__active .fotorama__dot {
+  width: 16px;
+  height: 16px;
+  background-color: transparent;
+  border-width: 1px;
+  /* border: 1px solid #fff; */
+  padding: 2px;
+  position: relative; }
+  .slider .fotorama__nav__frame.fotorama__active .fotorama__dot:after {
+    content: "";
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    border-radius: 50%;
+    background-color: #E37D97;
+    display: block; }
+.slider .fotorama__nav--dots .fotorama__nav__frame {
+  width: inherit;
+  height: 30px; }
+.slider .fotorama__nav {
+  background-color: #FFF;
+  position: relative; }
+  .slider .fotorama__nav:after {
+    content: ""; }
+.slider .fotorama__nav.fotorama__nav--dots {
+  border-radius: 100% 100% 0 0/100% 100% 0 0;
+  width: 200% !important;
+  height: 80px;
+  margin-top: -10px;
+  -webkit-box-shadow: 0px 0px 20px 20px rgba(0, 0, 0, 0.4);
+  box-shadow: 0px 0px 20px 20px rgba(0, 0, 0, 0.4); }
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -565,31 +626,38 @@ a.header__info--basket--weigher {
   float: left;
   margin: 40px auto; }
 
-.order div a span {
-  display: block;
-  position: relative;
-  float: right;
-  text-decoration: none; }
-.order div a span:hover {
-  text-decoration: none;
-  border-bottom: 2px dotted; }
-
 a.all_goods {
-  width: 98px;
-  height: 89px;
-  background-image: url("../../img/ney");
-  background-repeat: no-repeat;
-  -webkit-background-size: contain;
-  -o-background-size: contain;
-  background-size: contain;
-  text-align: left;
+  display: inline-block;
+  vertical-align: super;
+  width: 72px;
+  height: 72px;
+  line-height: 72px;
+  background-color: #FFF;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
+  -webkit-box-shadow: 5px 0 12px 0 rgba(0, 0, 0, 0.15);
+  box-shadow: 5px 0 12px 0 rgba(0, 0, 0, 0.15);
+  text-align: center;
   font-family: "Open Sans", sans-serif;
   color: #e37d97;
   font-size: 12px;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
-  box-sizing: border-box;
-  line-height: 12px; }
+  box-sizing: border-box; }
+  a.all_goods span {
+    display: inline-block;
+    position: relative;
+    text-decoration: none;
+    line-height: normal;
+    vertical-align: middle; }
+  a.all_goods:hover {
+    -webkit-box-shadow: 5px 0 12px 0 rgba(0, 0, 0, 0.3);
+    box-shadow: 5px 0 12px 0 rgba(0, 0, 0, 0.3); }
+    a.all_goods:hover span {
+      text-decoration: underline;
+      text-decoration-style: dotted; }
 
 .order_item {
   display: block;
@@ -747,7 +815,9 @@ a.all_goods {
   padding-top: 30px; }
 
 .stat {
-  margin: 1em; }
+  margin: 15px 0 0;
+  padding-bottom: 15px;
+  border-bottom: 1px dotted #e5879f; }
 
 .stat label {
   font-weight: bold; }
