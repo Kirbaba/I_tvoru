@@ -57,12 +57,83 @@
     .header__info--contacts p.title {
     	font-size: 10px;
     }
+    a.header__info--basket--weigher {
+    	display: none;
+    }
+    .slider-top-nav ul li {
+	    display: inline-block;
+	    margin: 5px;
+	}
+	.slider-top-nav ul {
+		padding: 15px 0;
+	}
+	.slider-box__item--desc {
+	    position: absolute;
+	    width: 80%;
+	    bottom: 50px;
+	    left: 10%;
+	    text-align: center;
+	}
+	.slider-box__item--desc a {
+		display: inline-block;
+		margin: 0 auto;
+		float: none;
+    }
+    .slider .fotorama__nav-wrap {
+		margin-top: -30px;
+		height: 30px;
+		background: #fff;
+		display: block;
+		float: left;
+		width: 150%;
+		margin-left: -25%;
+    }
 }
 
 @media only screen and (max-width: 670px) {
-	
+	.header__topline--center {
+	    text-align: left;
+	    a {
+			font-size: 12px;
+			background-color: #f4d2da;
+			height: 30px;
+			line-height: 30px;
+			color: #5b1526;
+			text-align: center;
+			margin-top: 5px;
+			border-radius: 5px;
+			padding: 0 5px;
+			&:hover {
+				text-decoration: underline;
+			}
+	    }
+	}
+	.header__topline--right {
+		h3 {
+			color: #FFF;
+			font-size: 12px;
+			.icon-phone-wite {
+				margin-right: 5px;
+			}
+		}
+	}	
 }
 
 @media only screen and (max-width: 500px) {
-	
+	.slider-box__item--desc h2 {
+		font-size: 27px;
+		span {
+			line-height: 41px;
+		}
+	}
+}
+
+@media only screen and (max-width: 320px) {
+	.toggle-menu, .xs-basket-but {
+		font-size: 12px;
+		i {
+			font-size: 20px;
+		}
+	}
+
 }

@@ -24,21 +24,24 @@
             <div class="header__topline">
                 <div class="container">
                     <div class="row">
-                        <div class="col-lg-4 col-md-4 col-sm-4">
-                            <a href="#">О магазине</a>
-                            <a href="#">Мастер классы</a>
-                            <a href="#">Оптовые заказы</a>
+                        <div class="col-lg-4 col-md-4 col-sm-4 hidden-xs">
+                            <div class="header__topline--right">
+                                <a href="#">О магазине</a>
+                                <a href="#">Мастер классы</a>
+                                <a href="#">Оптовые заказы</a>
+                            </div>
                         </div>
-                        <div class="col-lg-4 col-md-4 col-sm-4">
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6">
                             <div class="header__topline--center">
-                                <a href="#">Каталог товаров</a>
+                                <a href="#" class="hidden-xs">Каталог товаров</a>
                                 <a href="#">Спецпредложения</a>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-4 col-sm-4">
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6">
                             <div class="header__topline--right">
-                                <a href="#"><i class="icon-info"></i>Как купить</a>
-                                <a href="#"><i class="icon-delivery"></i>Доставка</a>
+                                <a href="#" class="hidden-xs"><i class="icon-info"></i>Как купить</a>
+                                <a href="#" class="hidden-xs"><i class="icon-delivery"></i>Доставка</a>
+                                <h3 class="visible-xs"><i class="icon-phone-wite"></i>8–800–505–15–89</h3>
                             </div>
                         </div>
                     </div>
@@ -47,8 +50,8 @@
             <div class="header__info">
                 <div class="container">
                     <div class="row">
-                        <div class="col-lg-4 col-md-4 col-sm-5">
-                            <div class="header__info--contacts">
+                        <div class="col-lg-4 col-md-4 col-sm-5 col-xs-4">
+                            <div class="header__info--contacts hidden-xs">
                                 <h3><i class="icon-phone"></i>8–800–505–15–89</h3>
 
                                 <div class="header__info--contacts--time">
@@ -64,15 +67,21 @@
                                     Заказать обратный звонок
                                 </a>
                             </div>
+                            <div class="visibble-xs">
+                                <a href="#" class="toggle-menu">
+                                    <i class="fa fa-bars"></i>
+                                    <span>Каталог товаров</span>
+                                </a>
+                            </div>
                         </div>
-                        <div class="col-lg-2 col-lg-offset-1 col-md-2 col-sm-2">
+                        <div class="col-lg-2 col-lg-offset-1 col-md-2 col-sm-2 col-xs-4">
                             <div class="header__info--logo">
                                 <a href="#"><img src="img/logo.png" alt=""></a>
                             </div>
                         </div>
-                        <div class="col-lg-5 col-md-5 col-sm-5">
+                        <div class="col-lg-5 col-md-5 col-sm-5 col-xs-4">
                             <div class="row">
-                                <div class="header__info--right">
+                                <div class="header__info--right hidden-xs">
                                     <div class="col-lg-4 col-md-4 hidden-sm hidden-xs">
                                         <a href="#" class="new-year">всё<br>для Нового года</a>
                                     </div>
@@ -93,19 +102,23 @@
                                                 15
                                             </a>
                                             <a href="#" class="header__info--basket">
-													<span class="header__info--basket--title">
-														<i class="icon-basket"></i><span>Корзина</span>
-													</span>
-													<span class="header__info--basket--numders">
-														<p><span>товаров:</span><b>10</b></p>
-														<p><span>на сумму:</span><b>99 999</b></p>
-													</span>
+												<span class="header__info--basket--title">
+													<i class="icon-basket"></i><span>Корзина</span>
+												</span>
+												<span class="header__info--basket--numders">
+													<p><span>товаров:</span><b>10</b></p>
+													<p><span>на сумму:</span><b>99 999</b></p>
+												</span>
                                             </a>
-                                        </div>
-
+                                        </div>                                     
                                     </div>
                                 </div>
-
+                                   <div class="visibble-xs">
+                                        <a href="#" class="xs-basket-but">
+                                            <i class="fa fa-shopping-cart"></i>
+                                            <span>Корзина пуста</span>
+                                        </a>
+                                    </div>
                             </div>
                         </div>
                     </div>
@@ -136,22 +149,20 @@
 <nav class="navigation">
     <div class="container">
         <div class="row">
-            <div class="col-lg-12">
-                <div class="slider-top-nav">
-                    <ul>
-                        <li><a href="#">Вышивка</a></li>
-                        <li><a href="#">Вязание</a></li>
-                        <li><a href="#">Декор</a></li>
-                        <li><a href="#">Декупаж</a></li>
-                        <li><a href="#">Детское творчество</a></li>
-                        <li><a href="#">Лепка</a></li>
-                        <li><a href="#">Мыло, свечи</a></li>
-                        <li><a href="#">Рисование</a></li>
-                        <li><a href="#">Скрапбукинг</a></li>
-                        <li><a href="#">Украшения</a></li>
-                        <li><a href="#">Шитье, валяние</a></li>
-                    </ul>
-                </div>
+            <div class="slider-top-nav">
+                <ul>
+                    <li><a href="#">Вышивка</a></li>
+                    <li><a href="#">Вязание</a></li>
+                    <li><a href="#">Декор</a></li>
+                    <li><a href="#">Декупаж</a></li>
+                    <li><a href="#">Детское творчество</a></li>
+                    <li><a href="#">Лепка</a></li>
+                    <li><a href="#">Мыло, свечи</a></li>
+                    <li><a href="#">Рисование</a></li>
+                    <li><a href="#">Скрапбукинг</a></li>
+                    <li><a href="#">Украшения</a></li>
+                    <li><a href="#">Шитье, валяние</a></li>
+                </ul>
             </div>
         </div>
     </div>
