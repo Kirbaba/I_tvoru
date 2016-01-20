@@ -244,7 +244,7 @@ div.footer_menu{
       font-size: 12px;
       font-family: $os;
       color: #ffffff;
-      line-height: 23px;
+      line-height: 20px;
     }
 }
 
@@ -269,7 +269,7 @@ div.footer__mail--contacts{
   -webkit-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  padding: 11px 0;
+  padding: 6px 0;
   margin: 0;
   font-size: 12px;
     i.white-marker{
@@ -291,10 +291,10 @@ div.footer__mail--contacts{
       &--post{
         display: inline-block;
         float: left;
-        font-size: 10px;
-        font-family: $os;
+        font-size: 12px;
+        font-family: "Open Sans", sans-serif;
         color: #ffffff;
-        line-height: 20px;
+        line-height: 17px;
         padding-top: 4px;
       }
 }
