@@ -664,6 +664,9 @@ a.header__info--basket--weigher {
     margin: 20px auto; }
     .order .item_about a {
       color: #545454; }
+    .order .item_about a:hover {
+      text-decoration: none;
+      color: #ce2c55; }
   .order .price {
     font-size: 24px;
     font-family: "Open Sans", sans-serif;

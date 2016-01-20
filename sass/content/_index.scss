@@ -41,6 +41,11 @@
     a {
       color: rgb(84, 84, 84);
     }
+    a:hover{
+      text-decoration: none;
+      //text-decoration-style: dotted;
+      color: darken(rgb(227, 125, 151), 20%);
+    }
   }
   .price {
     font-size: 24px;
