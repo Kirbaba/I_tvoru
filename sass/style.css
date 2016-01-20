@@ -700,6 +700,8 @@ a.header__info--basket--weigher {
 a.all_goods {
   display: inline-block;
   vertical-align: super;
+  text-transform: none;
+  text-decoration: none;
   width: 72px;
   height: 72px;
   line-height: 72px;
@@ -1138,18 +1140,20 @@ div.footer_menu {
       -webkit-box-sizing: border-box;
       -moz-box-sizing: border-box;
       box-sizing: border-box;
-      padding-left: 5px;
+      padding-left: 16px;
       font-family: "Open Sans", sans-serif;
       font-size: 12px;
-      color: #6E6E6E;
-      text-decoration: underline;
+      color: #ffffff;
+      text-decoration: none;
       text-decoration-style: dashed;
-      line-height: 14px; }
+      line-height: 15px; }
       .footer__info--contacts--callback:before, .footer__info--contacts--callback:after {
         display: table;
         content: " "; }
       .footer__info--contacts--callback:after {
         clear: both; }
+    .footer__info--contacts--callback:hover {
+      color: #ffffff; }
 
 .footer__address {
   display: block;
