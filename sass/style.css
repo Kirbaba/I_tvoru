@@ -1239,4 +1239,26 @@ div.footer__mail--contacts {
     line-height: 17px;
     padding-top: 4px; }
 
+@media only screen and (max-width: 770px) {
+  a.all_goods {
+    background: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    display: block;
+    margin: 5px auto;
+    width: auto; }
+
+  .header__topline a {
+    font-size: 10px;
+    margin-right: 5px; }
+
+  .header__info--contacts h3 {
+    font-size: 25px; }
+
+  .header__info--contacts p {
+    font-size: 10px; }
+
+  .header__info--contacts p.title {
+    font-size: 10px; } }
+
 /*# sourceMappingURL=style.css.map */
