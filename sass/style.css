@@ -733,7 +733,7 @@ a.all_goods {
     box-shadow: 5px 0 12px 0 rgba(0, 0, 0, 0.3); }
     a.all_goods:hover span {
       text-decoration: none;
-      color: #ce2c55; }
+      color: #b03c5b; }
 
 .strikethrough {
   position: relative;
@@ -884,6 +884,9 @@ a.all_goods {
         text-transform: uppercase;
         font-size: 14px;
         font-weight: 700; }
+      .slider-top-nav ul li a:hover {
+        text-decoration: none;
+        color: #b03c5b; }
 
 .plashka {
   background-color: #000000;
