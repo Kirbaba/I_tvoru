@@ -626,6 +626,24 @@ a.header__info--basket--weigher {
     text-decoration: none;
     background-color: #da5276; }
 
+.toggle-menu, .xs-basket-but {
+  text-decoration: none;
+  color: #E5869D;
+  font-size: 18px;
+  display: block;
+  margin-top: 25px; }
+  .toggle-menu span, .xs-basket-but span {
+    display: inline-block;
+    width: 70%;
+    vertical-align: middle;
+    line-height: normal; }
+  .toggle-menu i, .xs-basket-but i {
+    display: inline-block;
+    width: 26%;
+    vertical-align: middle;
+    line-height: normal;
+    font-size: 26px; }
+
 .slider {
   display: block;
   position: relative;
@@ -1308,8 +1326,75 @@ div.footer__mail--contacts {
   .footer__mailing {
     display: none; }
 
+<<<<<<< HEAD
   .footer__dev a {
     margin: 33px auto;
     text-align: center; } }
+=======
+  .header__info--contacts p.title {
+    font-size: 10px; }
+
+  a.header__info--basket--weigher {
+    display: none; }
+
+  .slider-top-nav ul li {
+    display: inline-block;
+    margin: 5px; }
+
+  .slider-top-nav ul {
+    padding: 15px 0; }
+
+  .slider-box__item--desc {
+    position: absolute;
+    width: 80%;
+    bottom: 50px;
+    left: 10%;
+    text-align: center; }
+
+  .slider-box__item--desc a {
+    display: inline-block;
+    margin: 0 auto;
+    float: none; }
+
+  .slider .fotorama__nav-wrap {
+    margin-top: -30px;
+    height: 30px;
+    background: #fff;
+    display: block;
+    float: left;
+    width: 150%;
+    margin-left: -25%; } }
+@media only screen and (max-width: 670px) {
+  .header__topline--center {
+    text-align: left; }
+    .header__topline--center a {
+      font-size: 12px;
+      background-color: #f4d2da;
+      height: 30px;
+      line-height: 30px;
+      color: #5b1526;
+      text-align: center;
+      margin-top: 5px;
+      border-radius: 5px;
+      padding: 0 5px; }
+      .header__topline--center a:hover {
+        text-decoration: underline; }
+
+  .header__topline--right h3 {
+    color: #FFF;
+    font-size: 12px; }
+    .header__topline--right h3 .icon-phone-wite {
+      margin-right: 5px; } }
+@media only screen and (max-width: 500px) {
+  .slider-box__item--desc h2 {
+    font-size: 27px; }
+    .slider-box__item--desc h2 span {
+      line-height: 41px; } }
+@media only screen and (max-width: 320px) {
+  .toggle-menu, .xs-basket-but {
+    font-size: 12px; }
+    .toggle-menu i, .xs-basket-but i {
+      font-size: 20px; } }
+>>>>>>> 05cf96b0934b789ac94af2b12a6e09892259e1e7
 
 /*# sourceMappingURL=style.css.map */
