@@ -1240,13 +1240,46 @@ div.footer__mail--contacts {
     padding-top: 4px; }
 
 @media only screen and (max-width: 770px) {
+  .order {
+    display: block;
+    position: relative;
+    width: 100%;
+    float: left;
+    margin: 5px auto; }
+
+  .order .zaglav {
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: center;
+    margin: 15px auto; }
+
   a.all_goods {
     background: none;
     -webkit-box-shadow: none;
     box-shadow: none;
     display: block;
-    margin: 5px auto;
+    font-size: 28px;
     width: auto; }
+
+  a.all_goods:hover {
+    background: none;
+    -webkit-box-shadow: none;
+    box-shadow: none; }
+
+  .order .order_item {
+    display: block;
+    position: relative;
+    width: 241px;
+    float: none;
+    margin: 30px auto; }
+
+  .description h1.event {
+    text-align: center;
+    margin-bottom: 10px; }
+
+  .description h1.about_company {
+    text-align: center;
+    margin: 30px auto; }
 
   .header__topline a {
     font-size: 10px;
