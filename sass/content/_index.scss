@@ -115,8 +115,9 @@ a.all_goods{
 //    text-decoration: none;
 //    order-bottom: 1px dotted #e5879f;
       span {
-        text-decoration: underline;
-        text-decoration-style: dotted;
+        text-decoration: none;
+        //text-decoration-style: dotted;
+        color: darken(rgb(227, 125, 151), 20%);
       }
   }
 }

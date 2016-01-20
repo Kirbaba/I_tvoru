@@ -729,8 +729,8 @@ a.all_goods {
     -webkit-box-shadow: 5px 0 12px 0 rgba(0, 0, 0, 0.3);
     box-shadow: 5px 0 12px 0 rgba(0, 0, 0, 0.3); }
     a.all_goods:hover span {
-      text-decoration: underline;
-      text-decoration-style: dotted; }
+      text-decoration: none;
+      color: #ce2c55; }
 
 .strikethrough {
   position: relative;
@@ -1136,7 +1136,7 @@ div.footer_menu {
       display: block;
       float: left;
       position: relative;
-      width: 40%;
+      width: 50%;
       -webkit-box-sizing: border-box;
       -moz-box-sizing: border-box;
       box-sizing: border-box;
