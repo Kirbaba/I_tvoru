@@ -691,6 +691,7 @@ a.header__info--basket--weigher {
     background-color: #da5276; }
 
 .toggle-menu, .xs-basket-but {
+  display: none;
   text-decoration: none;
   color: #E5869D;
   font-size: 18px;
@@ -1390,13 +1391,9 @@ div.footer__mail--contacts {
   .footer__mailing {
     display: none; }
 
-<<<<<<< HEAD
   .footer__dev a {
     margin: 33px auto;
-    text-align: center; } }
-=======
-  .header__info--contacts p.title {
-    font-size: 10px; }
+    text-align: center; }
 
   a.header__info--basket--weigher {
     display: none; }
@@ -1453,12 +1450,14 @@ div.footer__mail--contacts {
   .slider-box__item--desc h2 {
     font-size: 27px; }
     .slider-box__item--desc h2 span {
-      line-height: 41px; } }
+      line-height: 41px; }
+
+  .toggle-menu, .xs-basket-but {
+    display: block; } }
 @media only screen and (max-width: 320px) {
   .toggle-menu, .xs-basket-but {
     font-size: 12px; }
     .toggle-menu i, .xs-basket-but i {
       font-size: 20px; } }
->>>>>>> 05cf96b0934b789ac94af2b12a6e09892259e1e7
 
 /*# sourceMappingURL=style.css.map */
