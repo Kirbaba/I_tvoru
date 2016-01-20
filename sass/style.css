@@ -273,6 +273,70 @@ ul {
   box-shadow: 0 0px 20px 3px rgba(0, 0, 0, 0.5);
   z-index: 9; }
 
+.navigation-mobile {
+  display: none;
+  width: 100%;
+  position: absolute;
+  top: 0; }
+  .navigation-mobile__topline {
+    top: 0;
+    width: 100%;
+    height: 50px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding-bottom: 10px;
+    line-height: 40px;
+    background-image: url("../img/Layer-3.png");
+    background-color: #E37D97;
+    background-repeat: repeat-x; }
+    .navigation-mobile__topline:before, .navigation-mobile__topline:after {
+      display: table;
+      content: " "; }
+    .navigation-mobile__topline:after {
+      clear: both; }
+    .navigation-mobile__topline a {
+      display: inline-block;
+      color: #FFF;
+      font-size: 14px;
+      margin-right: 15px; }
+  .navigation-mobile a.navigation-mobile__menu-hide {
+    display: block;
+    float: right;
+    margin-right: 0;
+    margin-top: 3px;
+    position: relative;
+    width: 35px;
+    height: 35px;
+    color: #E37D97;
+    background-color: #fff;
+    text-align: center;
+    line-height: 35px;
+    font-size: 23px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    border-radius: 50%; }
+  .navigation-mobile__menu {
+    display: block;
+    float: left;
+    width: 80%;
+    background-color: #D0607D;
+    position: relative;
+    z-index: 9; }
+    .navigation-mobile__menu ul {
+      margin-bottom: 0; }
+      .navigation-mobile__menu ul li {
+        font-family: "Open Sans", sans-serif;
+        font-weight: bold;
+        font-size: 17px;
+        width: 100%;
+        border-bottom: 1px solid #E3A0B1; }
+        .navigation-mobile__menu ul li a {
+          padding: 15px 0 15px 50px;
+          color: #fff;
+          display: block; }
+
 .header {
   display: block;
   float: left;
