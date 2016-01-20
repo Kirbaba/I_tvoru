@@ -692,6 +692,7 @@ a.header__info--basket--weigher {
     background-color: #da5276; }
 
 .toggle-menu, .xs-basket-but {
+  display: none;
   text-decoration: none;
   color: #E5869D;
   font-size: 18px;
@@ -1452,6 +1453,7 @@ div.footer__mail--contacts {
     .slider-box__item--desc h2 span {
       line-height: 41px; }
 
+<<<<<<< HEAD
   .order .zaglav {
     font-size: 25px; }
 
@@ -1498,6 +1500,10 @@ div.footer__mail--contacts {
     left: 314.002px;
     top: 10666.5px;
     z-index: 18; } }
+=======
+  .toggle-menu, .xs-basket-but {
+    display: block; } }
+>>>>>>> d2e6072d8abc0933b8eb6ede8a13c8f40928e689
 @media only screen and (max-width: 320px) {
   .toggle-menu, .xs-basket-but {
     font-size: 12px; }
