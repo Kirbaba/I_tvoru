@@ -738,25 +738,23 @@ a.all_goods {
 .strikethrough {
   position: relative;
   font-size: 16px; }
-
-.strikethrough:before {
-  border-bottom: 3px solid red;
-  position: absolute;
-  content: "";
-  width: 100%;
-  top: 50%;
-  height: 0;
-  transform: rotate(-16deg) translateY(-50%); }
-
-.strikethrough:after {
-  border-bottom: 3px solid red;
-  position: absolute;
-  top: 50%;
-  right: 0;
-  content: "";
-  width: 100%;
-  height: 0;
-  transform: rotate(16deg) translateY(-50%); }
+  .strikethrough:before {
+    border-bottom: 3px solid red;
+    position: absolute;
+    content: "";
+    width: 100%;
+    top: 50%;
+    height: 0;
+    transform: rotate(-16deg) translateY(-50%); }
+  .strikethrough:after {
+    border-bottom: 3px solid red;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    content: "";
+    width: 100%;
+    height: 0;
+    transform: rotate(16deg) translateY(-50%); }
 
 .description {
   display: block;
@@ -1211,6 +1209,9 @@ div.footer__mail--contacts {
   position: relative;
   width: 100%;
   color: white;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   padding: 6px 0;
   margin: 0;
   font-size: 12px; }
