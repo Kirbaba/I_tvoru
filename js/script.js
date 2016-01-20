@@ -43,6 +43,16 @@ jQuery(document).ready(function($){
         var fotorama = $fotoramaDiv.data('fotorama');
         fotorama.show('>');
     });
+
+    $(".toggle-menu").click(function(e) {
+        e.preventDefault();
+        $(".navigation-mobile").slideDown("slow");
+    });
+    $(".navigation-mobile__menu-hide").click(function(e) {
+        e.preventDefault();
+        $(".navigation-mobile").slideUp("slow");
+    });
+
 });
 
 
