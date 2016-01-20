@@ -1240,6 +1240,19 @@ div.footer__mail--contacts {
     padding-top: 4px; }
 
 @media only screen and (max-width: 770px) {
+  .header__topline a {
+    font-size: 10px;
+    margin-right: 5px; }
+
+  .header__info--contacts h3 {
+    font-size: 25px; }
+
+  .header__info--contacts p {
+    font-size: 10px; }
+
+  .header__info--contacts p.title {
+    font-size: 10px; }
+
   .order {
     display: block;
     position: relative;
@@ -1281,17 +1294,22 @@ div.footer__mail--contacts {
     text-align: center;
     margin: 30px auto; }
 
-  .header__topline a {
-    font-size: 10px;
-    margin-right: 5px; }
+  .footer__info--contacts {
+    margin-top: 15px;
+    margin-left: 135px; }
+    .footer__info--contacts--callback {
+      display: none; }
 
-  .header__info--contacts h3 {
-    font-size: 25px; }
+  .footer__info--contacts--time {
+    display: none; }
+    .footer__info--contacts--time--text {
+      display: none; }
 
-  .header__info--contacts p {
-    font-size: 10px; }
+  .footer__mailing {
+    display: none; }
 
-  .header__info--contacts p.title {
-    font-size: 10px; } }
+  .footer__dev a {
+    margin: 33px auto;
+    text-align: center; } }
 
 /*# sourceMappingURL=style.css.map */

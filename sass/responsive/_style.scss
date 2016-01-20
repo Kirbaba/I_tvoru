@@ -3,6 +3,19 @@
 }
 
 @media only screen and (max-width: 770px) {
+  .header__topline a {
+        font-size: 10px;
+        margin-right: 5px;
+      }
+  .header__info--contacts h3 {
+        font-size: 25px;
+      }
+  .header__info--contacts p {
+        font-size: 10px;
+      }
+  .header__info--contacts p.title {
+        font-size: 10px;
+      }
   .order {
         display: block;
         position: relative;
@@ -37,26 +50,33 @@
         margin: 30px auto;
     }
     .description h1.event {
-      text-align: center;
-      margin-bottom: 10px;
-    }
+        text-align: center;
+        margin-bottom: 10px;
+      }
     .description h1.about_company {
-      text-align: center;
-      margin: 30px auto;
+        text-align: center;
+        margin: 30px auto;
+      }
+    .footer__info--contacts {
+        margin-top: 15px;
+        margin-left: 135px;
+        &--callback{
+          display: none;
+        }
     }
-	.header__topline a {
-		font-size: 10px;
-		margin-right: 5px;
-	}
-	.header__info--contacts h3 {
-    	font-size: 25px;
+    .footer__info--contacts--time{
+      display: none;
+      &--text{
+        display: none;
+      }
     }
-    .header__info--contacts p {
-    	font-size: 10px;
-    }
-    .header__info--contacts p.title {
-    	font-size: 10px;
-    }
+    .footer__mailing{
+        display: none;
+        }
+    .footer__dev a {
+        margin: 33px auto;
+        text-align: center;
+      }
 }
 
 @media only screen and (max-width: 670px) {
