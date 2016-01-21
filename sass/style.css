@@ -1,4 +1,3 @@
-@charset "UTF-8";
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700&subset=latin,cyrillic-ext);
 @font-face {
   font-family: 'PantonBold';
@@ -1399,6 +1398,9 @@ div.footer__mail--contacts {
   a.header__info--basket--weigher {
     display: none; }
 
+  .footer_social_xs {
+    display: none; }
+
   .slider-top-nav ul li {
     display: inline-block;
     margin: 5px; }
@@ -1453,13 +1455,8 @@ div.footer__mail--contacts {
     .slider-box__item--desc h2 span {
       line-height: 41px; }
 
-<<<<<<< HEAD
   .order .zaglav {
     font-size: 25px; }
-
-  img {
-    width: 80px;
-    height: 80px; }
 
   div.footer_menu {
     display: none; }
@@ -1486,24 +1483,12 @@ div.footer__mail--contacts {
     text-align: left;
     margin: 0; }
 
-  ._8тАУ800тАУ505тАУ15тАУ89 {
-    font-size: 29px;
-    font-family: "Panton";
-    color: white;
-    text-transform: uppercase;
-    line-height: 1.2;
-    text-align: left;
-    -moz-transform: matrix(1.37294, 0, 0, 1.37143, 0, 0);
-    -webkit-transform: matrix(1.37294, 0, 0, 1.37143, 0, 0);
-    -ms-transform: matrix(1.37294, 0, 0, 1.37143, 0, 0);
-    position: absolute;
-    left: 314.002px;
-    top: 10666.5px;
-    z-index: 18; } }
-=======
-  .toggle-menu, .xs-basket-but {
-    display: block; } }
->>>>>>> d2e6072d8abc0933b8eb6ede8a13c8f40928e689
+  .description p.date img.calendar {
+    width: 40px;
+    height: 40px; } }
+.toggle-menu, .xs-basket-but {
+  display: block; }
+
 @media only screen and (max-width: 320px) {
   .toggle-menu, .xs-basket-but {
     font-size: 12px; }
