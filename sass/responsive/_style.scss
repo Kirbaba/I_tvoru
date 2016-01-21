@@ -80,6 +80,9 @@
     a.header__info--basket--weigher {
     	display: none;
     }
+    .footer_social_xs {
+        display: none;
+      }
     .slider-top-nav ul li {
 	    display: inline-block;
 	    margin: 5px;
@@ -177,6 +180,26 @@
       font-size: 23px;
     }
   }
+  .slider-box__item--desc h2 {
+    font-size: 27px;
+    span {
+      line-height: 41px;
+    }
+  }
+
+  .order .zaglav {
+    font-size: 25px;
+  }
+  div.footer_menu {
+    display: none;
+  }
+  .footer__info--contacts {
+    margin-top: 15px;
+    margin-left: 64px;
+    & h3 {
+      font-size: 23px;
+    }
+  }
   .footer__address {
     margin-left: 47px;
     padding: 0;
@@ -193,28 +216,28 @@
     text-align: left;
     margin: 0;
   }
-  ._8–800–505–15–89 {
-    font-size: 29px;
-    font-family: "Panton";
-    color: rgb(255, 255, 255);
-    text-transform: uppercase;
-    line-height: 1.2;
+  .footer__dev img {
+    width: 275px;
+    height: 45px;
+    display: block;
     text-align: left;
-    -moz-transform: matrix( 1.37294270805988,0,0,1.37142665816593,0,0);
-    -webkit-transform: matrix( 1.37294270805988,0,0,1.37142665816593,0,0);
-    -ms-transform: matrix( 1.37294270805988,0,0,1.37142665816593,0,0);
-    position: absolute;
-    left: 314.002px;
-    top: 10666.5px;
-    z-index: 18;
+    margin: 0;
   }
-
+  .description p.date img.calendar {
+//    margin: 0;
+//    padding: 0 5px 0 0;
+//    border: 0;
+//    font-size: 100%;
+//    font: inherit;
+//    vertical-align: middle;
+    width: 40px;
+    height: 40px;
+  }
 	.toggle-menu, .xs-basket-but {
 		display: block;
 	}
   
 }
-
 
 @media only screen and (max-width: 320px) {
 	.toggle-menu, .xs-basket-but {
