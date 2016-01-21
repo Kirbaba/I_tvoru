@@ -366,4 +366,8 @@ a.header__info--basket--weigher {
 		line-height: normal;
 		font-size: 26px;
 	}
+	&:hover, &:active, &:focus {
+		text-decoration: none;
+		color: #E5869D;
+	}
 }

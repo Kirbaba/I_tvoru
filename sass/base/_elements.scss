@@ -69,6 +69,10 @@
 		width: 14px;
 		height: 14px;
 		background-image: url('../img/header-author.png');
+		&-w {
+			@extend .icon-authorization;
+			background-image: url('../img/exit-w.png');
+		}
 	}
 	&-registration {
 		display: inline-block;
@@ -83,6 +87,10 @@
 		height: 15px;
 		background-image: url('../img/header-reg.png');
 		margin-right: 3px;
+		&-w {
+			@extend .icon-registration;
+			background-image: url('../img/reg-w.png');
+		}
 	}
 	&-basket {
 		display: inline-block;
@@ -109,4 +117,22 @@
 		margin-bottom: 3px;
 		
 	}
+	&-about {
+		@extend .icon-info;
+		background-image: url('../img/Shape-400.png');
+	}
+	&-master {
+		@extend .icon-info;
+		background-image: url('../img/Shape-399.png');
+	}
+	&-opt {
+		@extend .icon-info;
+		background-image: url('../img/Shape-398.png');
+	}
+	&-mobilecall {
+		@extend .icon-info;
+		background-image: url('../img/Shape-397-1.png');
+	}
+	
 }
+	

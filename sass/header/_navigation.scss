@@ -35,7 +35,7 @@
 		display: block;
 		float: right;
 		margin-right: 0;
-		margin-top: 3px;
+		margin-top: 5px;
 		position: relative;
 		width: 35px;
 		height: 35px;
@@ -49,11 +49,11 @@
 	&__menu {
 		display: block;
 		float: left;
-		width: 80%;
-		background-color: #D0607D;
+		width: 80%;		
 		position: relative;
 		z-index: 9;
-		ul {
+		&--list {
+			background-color: #D0607D;
 			margin-bottom: 0;
 			li {
 				font-family: $os;
@@ -68,6 +68,89 @@
 				}
 			}
 		}
-		
+		&--info {
+			background-color: #E37D97;
+			border-bottom: 1px solid #fff;
+			margin-bottom: 0;
+			li {
+				font-family: $os;
+				font-size: 17px;
+				width: 100%;
+				border-bottom: 1px solid #E3A0B1;
+				a {
+					padding: 15px 0 15px 50px;
+					color: #fff;
+					display: block;
+				}
+			}
+		}
+		&--contacts {
+			@extend .navigation-mobile__menu--info;
+			border-bottom: none;
+			li {
+				font-family: $os;
+				font-size: 17px;
+				width: 100%;
+				border-bottom: 1px solid #E3A0B1;
+				padding: 15px 0 15px 50px;
+				color: #fff;				
+				display: block;
+				span {
+					display: inline-block;
+					vertical-align: middle;
+					small {
+						font-family: $l;
+						display: block;
+					}
+					
+				}
+				span.email {
+					font-family: $l;
+					    vertical-align: middle;
+					a {
+						text-decoration: none;
+						color: #FFF;
+						font-family: $r;
+						display: inline-block;
+						padding: 0;
+					}
+				}
+				i {
+					vertical-align: middle;
+				}
+			}
+		}
+	}
+	i.white-marker {
+	    display: inline-block;
+	    line-height: normal;
+	    vertical-align: middle;
+	    float: left;
+	    width: 14px;
+	    height: 14px;
+	    background-image: url("../img/white-marker.png");
+	    background-repeat: no-repeat;
+	    -webkit-background-size: contain;
+	    -o-background-size: contain;
+	    background-size: contain;
+	    background-position: center;
+	    margin-right: 5px;
+	    margin-top: 3px;
+	}
+	i.icon-envelope {
+		display: inline-block;
+	    line-height: normal;
+	    vertical-align: middle;
+	    float: left;
+	    width: 14px;
+	    height: 14px;
+	    margin-right: 5px;
+	    background-image: url("../img/envelope.png");
+	    background-repeat: no-repeat;
+	    -webkit-background-size: contain;
+	    -o-background-size: contain;
+	    background-size: contain;
+	    background-position: center;
+	    margin-top: 3px;
 	}
 }
