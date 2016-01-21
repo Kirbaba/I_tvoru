@@ -70,10 +70,6 @@
         display: none;
       }
     }
-<<<<<<< HEAD
-
-=======
->>>>>>> d2e6072d8abc0933b8eb6ede8a13c8f40928e689
     .footer__mailing{
         display: none;
         }
@@ -81,10 +77,6 @@
         margin: 33px auto;
         text-align: center;
       }
-<<<<<<< HEAD
-
-=======
->>>>>>> d2e6072d8abc0933b8eb6ede8a13c8f40928e689
     a.header__info--basket--weigher {
     	display: none;
     }
@@ -108,18 +100,32 @@
 		float: none;
     }
     .slider .fotorama__nav-wrap {
-		margin-top: -30px;
-		height: 30px;
-		background: #fff;
-		display: block;
-		float: left;
-		width: 150%;
-		margin-left: -25%;
+  		margin-top: -30px;
+  		height: 30px;
+  		background: #fff;
+  		display: block;
+  		float: left;
+  		width: 150%;
+  		margin-left: -25%;
     }
-<<<<<<< HEAD
+  .footer__logo {
+      img {
+        display: block;
+        margin-top: auto;
+        max-width: 100%;
+      }
+    }
 
-=======
->>>>>>> d2e6072d8abc0933b8eb6ede8a13c8f40928e689
+    .footer__info--contacts {
+      margin-left: 0;
+    }
+
+    .footer__address .title_mail {
+      line-height: 40px;
+      a {
+        display: inline-block;
+      }
+    }
 }
 
 @media only screen and (max-width: 670px) {
@@ -148,7 +154,7 @@
 				margin-right: 5px;
 			}
 		}
-	}	
+	}	  
 }
 
 @media only screen and (max-width: 500px) {
@@ -158,40 +164,35 @@
 			line-height: 41px;
 		}
 	}
-<<<<<<< HEAD
-    .order .zaglav {
-          font-size: 25px;
-        }
-    img{
-      width: 80px;
-      height: 80px;
+  .order .zaglav {
+    font-size: 25px;
+  }
+   div.footer_menu {
+    display: none;
+  }
+  .footer__info--contacts {
+    margin-top: 15px;
+    margin-left: 64px;
+    & h3{
+      font-size: 23px;
     }
-    div.footer_menu {
-        display: none;
-      }
-    .footer__info--contacts {
-        margin-top: 15px;
-        margin-left: 64px;
-        & h3{
-          font-size: 23px;
-        }
-      }
-    .footer__address {
-        margin-left: 47px;
-        padding: 0;
-      }
-      .footer__dev a {
-        text-align: left;
-        font-size: 18px;
-        margin: 20px auto;
-      }
-      .footer__dev img {
-        width: 275px;
-        height: 45px;
-        display: block;
-        text-align: left;
-        margin: 0;
-      }
+  }
+  .footer__address {
+    margin-left: 47px;
+    padding: 0;
+  }
+  .footer__dev a {
+    text-align: left;
+    font-size: 18px;
+    margin: 20px auto;
+  }
+  .footer__dev img {
+    width: 275px;
+    height: 45px;
+    display: block;
+    text-align: left;
+    margin: 0;
+  }
   ._8–800–505–15–89 {
     font-size: 29px;
     font-family: "Panton";
@@ -208,11 +209,10 @@
     z-index: 18;
   }
 
-=======
 	.toggle-menu, .xs-basket-but {
 		display: block;
 	}
->>>>>>> d2e6072d8abc0933b8eb6ede8a13c8f40928e689
+  
 }
 
 

@@ -50,7 +50,7 @@ jQuery(document).ready(function($){
     });
     $(".navigation-mobile__menu-hide").click(function(e) {
         e.preventDefault();
-        $(".navigation-mobile").slideUp("slow");
+        $(".navigation-mobile").slideUp("fast");
     });
 
 });

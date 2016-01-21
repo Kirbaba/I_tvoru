@@ -1285,7 +1285,8 @@ div.footer__mail--contacts {
   margin-top: 2px; }
   div.footer__mail--contacts a {
     color: white;
-    font-family: "Open Sans", sans-serif; }
+    font-family: "Open Sans", sans-serif;
+    display: block; }
 
 .footer__mailing {
   display: block;
@@ -1425,7 +1426,20 @@ div.footer__mail--contacts {
     display: block;
     float: left;
     width: 150%;
-    margin-left: -25%; } }
+    margin-left: -25%; }
+
+  .footer__logo img {
+    display: block;
+    margin-top: auto;
+    max-width: 100%; }
+
+  .footer__info--contacts {
+    margin-left: 0; }
+
+  .footer__address .title_mail {
+    line-height: 40px; }
+    .footer__address .title_mail a {
+      display: inline-block; } }
 @media only screen and (max-width: 670px) {
   .header__topline--center {
     text-align: left; }
@@ -1453,13 +1467,8 @@ div.footer__mail--contacts {
     .slider-box__item--desc h2 span {
       line-height: 41px; }
 
-<<<<<<< HEAD
   .order .zaglav {
     font-size: 25px; }
-
-  img {
-    width: 80px;
-    height: 80px; }
 
   div.footer_menu {
     display: none; }
@@ -1499,11 +1508,10 @@ div.footer__mail--contacts {
     position: absolute;
     left: 314.002px;
     top: 10666.5px;
-    z-index: 18; } }
-=======
+    z-index: 18; }
+
   .toggle-menu, .xs-basket-but {
     display: block; } }
->>>>>>> d2e6072d8abc0933b8eb6ede8a13c8f40928e689
 @media only screen and (max-width: 320px) {
   .toggle-menu, .xs-basket-but {
     font-size: 12px; }
